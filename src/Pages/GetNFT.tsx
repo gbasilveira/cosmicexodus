@@ -9,9 +9,9 @@ const GetNFT = () => {
         <p>Type: {type}</p>
         <p>ID: {id}</p>
 
-        <AuthenticateWeb3Wallet />
+        {/* <AuthenticateWeb3Wallet />
         <NFTSummaryWidget />
-        <GetNFTButton />
+        <GetNFTButton /> */}
 
         
 
