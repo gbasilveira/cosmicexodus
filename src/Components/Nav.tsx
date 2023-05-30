@@ -1,4 +1,6 @@
+import {ConnectWallet} from "@thirdweb-dev/react";
 import links from "../data/links.json";
+
 
 const Nav = () => {
     return <>
@@ -9,6 +11,7 @@ const Nav = () => {
                 </a>
             </div>
             <div className="nav-links">
+                <ConnectWallet theme="dark" />
             </div>
 
             <div className="nav-discord desktop-only">

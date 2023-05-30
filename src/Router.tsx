@@ -57,7 +57,8 @@ const router = createBrowserRouter([
         element: <InGameActionsLayout />,
         children: [
             {  
-                path: "getnft/:game/:type/:id",
+                // path: "getnft/:game/:type/:id",
+                path: "getnft",
                 element: <GetNFT />
             }
         ]
